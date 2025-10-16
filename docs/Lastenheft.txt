@@ -1,10 +1,10 @@
-1) Bohnenmenge
-	1.1) Die aktuelle Menge an Bohnen im Mahlwerk messen
+1) Bohnen
+	1.1) Anzeige für leeren Oberbehälter
 	1.2) Die gewünschte Menge an Bohnen eingeben
-	1.3) Bohnen aus dem Bohnenbehälter in das Mahlwerk füllen
+	1.3) Bohnen aus dem Oberbehälter in das Mahlwerk füllen
 
 2) Mahlgrad
-	2.1) Den Mahlgrad einstellen
+	2.1) Den Mahlgrad aus den Optionen ["low", "medium", "high"] einstellen
 	2.2) Den eingestellten Mahlgrad anzeigen
 
 3) Mahlvorgang
@@ -17,6 +17,5 @@
 	4.2) Anzeigen der aktuellen Drehzahl
 
 5) Wartung
-	5.1) Verschleiß des Mahlwerks erkennen
-	5.2) Erinnerung des Nutzers an die Wartung
-	5.3) Deaktivierung bei zu hohem Verschleiß
+	5.1) Erinnerung des Nutzers an die Wartung
+	5.2) Deaktivierung bei fehlender Wartung
