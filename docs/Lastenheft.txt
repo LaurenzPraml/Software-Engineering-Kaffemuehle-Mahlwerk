@@ -1,6 +1,13 @@
+Teilfunktionailtäten:
+	1) Bohnenzufuhr
+	2) Mahlgrad
+	3) Mahlvorgang
+	4) Drehzahlsteuerung
+	5) Wartung
+
 1) Bohnen
-	1.1) Anzeige für leeren Oberbehälter
-	1.2) Die gewünschte Menge an Bohnen eingeben
+	1.1) Hinweis auf leeren Oberbehälter
+	1.2) Die gewünschte Menge an Bohnen, im Wertebereich [1 Tasse bis 7 Tassen], eingeben
 	1.3) Bohnen aus dem Oberbehälter in das Mahlwerk füllen
 
 2) Mahlgrad
@@ -13,7 +20,7 @@
 	3.3) Ende des Mahlvorgangs mit einem Piepen bekanntgeben
 
 4) Drehzahlsteuerung
-	4.1) Drehzahlsteuerung in Abhängigkeit des Mahlgrades
+	4.1) Drehzahlsteuerung in Abhängigkeit des Mahlgrades einstellen
 	4.2) Anzeigen der aktuellen Drehzahl
 
 5) Wartung
