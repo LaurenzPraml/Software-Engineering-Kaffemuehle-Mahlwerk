@@ -1,5 +1,6 @@
 Legende:
 	muss = zwingend notwendige Anforderungen
+	darf nicht = zwingend notwendige Anforderung
 	soll = "nice-to-have", falls die Zeit ausreicht
 
 Funktionale Requirements:
