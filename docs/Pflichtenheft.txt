@@ -15,7 +15,8 @@ Funktionale Requirements:
 
 2) Mahlgrad
 	2.1) Der Mahlgrad muss aus den 3 Optionen ["low", "medium", "high"] gewählt werden können
-	2.2) Der aktuell eingestellte Mahlgrad muss angezeigt werden
+	2.2) Der Mahlgrad muss in einen konkreten Drehzahlwert umgewandelt werden ["low" = 1000rpm, "medium" = 1500rpm, "high" = 2000rpm]
+	2.3) Der aktuell eingestellte Mahlgrad muss angezeigt werden
 
 3) Mahlvorgang
 	3.1) Der Mahlvorgang muss gestartet werden können
@@ -26,7 +27,7 @@ Funktionale Requirements:
 	3.6) Die Mühle muss einen abgeschlossenen Mahlvorgang durch piepen bekannt geben
 
 4) Drehzahlsteuerung
-	4.1) Die Drehzahl muss (entsprechend des Mahlgrads ["low" = 1000rpm, "medium" = 1500rpm, "high" = 2000rpm]) gesteuert werden
+	4.1) Die Drehzahl muss mit dem, vom Nutzer übergebenen Wert, gesteuert werden
 	4.2) Die aktuelle Drehzahl soll angezeigt werden
 
 5) Wartung

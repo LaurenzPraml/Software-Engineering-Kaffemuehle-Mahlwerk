@@ -20,7 +20,7 @@ Teilfunktionailtäten:
 	3.3) Ende des Mahlvorgangs mit einem Piepen bekanntgeben
 
 4) Drehzahlsteuerung
-	4.1) Drehzahlsteuerung in Abhängigkeit des Mahlgrades einstellen
+	4.1) Drehzahl korrekt einstellen
 	4.2) Anzeigen der aktuellen Drehzahl
 
 5) Wartung
