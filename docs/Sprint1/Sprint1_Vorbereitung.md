@@ -97,12 +97,12 @@ Hierfür wurden folgende Punkte identifiziert.
 
 ### Klassendiagramm:
 
-[UML-Klassendiagramm.pdf](/docs/UML_Klassendiagramm.pdf)
+[UML-Klassendiagramm.pdf](/docs/reference/UML_Klassendiagramm.pdf)
 
 ### Sequenzdiagramm:
 
-[Sequenzdiagramm.pdf](/docs/Sequenzdiagramm.pdf)
+[Sequenzdiagramm.pdf](/docs/reference/Sequenzdiagramm.pdf)
 
 ### Kommunikationsdiagramm:
 
-[Kommunikationsdiagramm.pdf](/docs/Kommunikationsdiagramm.pdf)
+[Kommunikationsdiagramm.pdf](/docs/reference/Kommunikationsdiagramm.pdf)
