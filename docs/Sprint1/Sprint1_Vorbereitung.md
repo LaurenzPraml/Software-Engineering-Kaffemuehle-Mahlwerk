@@ -5,6 +5,7 @@ Außerdem sollen die nötigen Requirements umgesetzt werden, um die Grundfunktio
 Hierfür wurden folgende Punkte identifiziert.
 
 ### Umzusetzende Requirements:
+
 * 0.1) Das Programm muss in C++ programmiert werden
 * 0.2) Alle Kommentare und Variablen im Sourcecode müssen auf Deutsch sein
 * 1.3) Die gewünschte Menge an Bohnen muss im Wertebereich [1 Tasse bis 7 Tassen] eingegeben werden können
@@ -16,14 +17,92 @@ Hierfür wurden folgende Punkte identifiziert.
 * 3.3) Der Mahlvorgang darf nicht gestartet werden, wenn der Oberbehälter leer ist
 * 4.1) Die Drehzahl muss mit dem, vom Nutzer übergebenen Wert, gesteuert werden
 
+### Software Design
+
+- Mahlwerk:
+    - Methoden:
+        - StartMahlvorgang()
+        - StartNutzerinteraktion()
+
+- Bohnenmanager:
+    - Attribute:
+        - BohnenSollwert: int
+        - AktuelleMenge: int
+
+    - Methoden:
+        - OeffneZufuhr()
+        - SchliesseZufuhr()
+        - GetAktuelleMenge()
+        - SetBohnenmenge()
+
+- Mahlgradmanager:
+    - Attribute:
+        - MahlgradOptionen: Enum
+        - AktuellerMahlgrad: Enum
+
+    - Methoden: 
+        - SetMahlgrad()
+        - GetDrehzahl()
+
+- Wartungsmanager:
+    - Attribute:
+        - AnzahlMahlvorgaenge: int
+        - WarnGrenzwert: int
+        - WartungFaellig: bool
+
+    - Methoden:
+        - ZaehlerInktementieren()
+        - ZaehlerZuruecksetzen()
+
+- DateiManager: 
+    - Attribute: 
+        - Dateipfad: string
+
+    - Methoden: 
+        - ZaehlerSpeichern()
+        - ZaehlerLaden()
+
+- Mahlvorgang:
+    - Attribute:
+        - Mahlvorgangsdauer: int
+        - VerstricheneZeit: int
+
+    - Methoden: 
+        - StartAnfragen()
+        - MahldauerWarten()
+
+- DrehzahlRegler:
+    - Attribute:
+        - Drehzahl: int
+
+    - Methoden
+        - SetDrehzahl()
+
+- IOHandler:
+    - Attribute: 
+        - Puffergroesse: int
+
+    - Methoden:
+        - BohnenmengeZeigen()
+        - MahlgradZeigen()
+        - WartungZeigen()
+        - DrehzahlZeigen()
+        - TextEingabe()
+        - ZahlEingabe()
+        - MenueZeigen()
+
 ### Traceability: 
+
 [Traceability-Matrix.PDF](/docs/Traceability-Matrix.pdf)
 
 ### Klassendiagramm:
+
 [UML-Klassendiagramm.pdf](/docs/UML_Klassendiagramm.pdf)
 
 ### Sequenzdiagramm:
+
 [Sequenzdiagramm.pdf](/docs/Sequenzdiagramm.pdf)
 
 ### Kommunikationsdiagramm:
+
 [Kommunikationsdiagramm.pdf](/docs/Kommunikationsdiagramm.pdf)
