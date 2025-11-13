@@ -13,7 +13,6 @@ Hierfür wurden folgende Punkte identifiziert.
 * 3.1) Der Mahlvorgang muss gestartet werden können
 * 3.2) Der Mahlvorgang muss gestoppt werden können
 * 3.3) Der Mahlvorgang darf nicht gestartet werden, wenn der Oberbehälter leer ist
-* 4.1) Die Drehzahl muss mit dem, vom Nutzer übergebenen Wert, gesteuert werden
 * 4.2) Die aktuelle Drehzahl soll angezeigt werden
 
 ### Software Design
