@@ -1,15 +1,20 @@
 #pragma once
 
-class Mahlwerk{
+#include "Bohnenmanager.hpp"
+#include "Mahlvorgang.hpp"
+#include "IOHandler.hpp"
+
+class Mahlwerk {
 private:
+    Bohnenmanager bm;
+    Mahlvorgang mv;
+    IOHandler* io;
 
 public:
-  Mahlwerk(){
-  }
+    Mahlwerk();
 
-  ~Mahlwerk(){
-  }
+    ~Mahlwerk() {
+    }
 
-  void StartVorgang();
-  int StartNutzerinteraktion(const char* Optionen);
+    void StartVorgang();
 };

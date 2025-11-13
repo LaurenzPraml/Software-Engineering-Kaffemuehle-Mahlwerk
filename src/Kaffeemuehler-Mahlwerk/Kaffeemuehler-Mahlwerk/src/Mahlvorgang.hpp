@@ -2,21 +2,21 @@
 
 #include "Bohnenmanager.hpp"
 #include "DrehzahlRegler.hpp"
+#include "IOHandler.hpp"
 
 class Mahlvorgang{
 private:
-  int Mahlvorgangsdauer;
-  int VerstricheneZeit;
+  long long Mahlvorgangsdauer;
+  long long VerstricheneZeit;
 
   Bohnenmanager bm;
   DrehzahlRegler dr;
+  IOHandler* io;
 
 public:
-  Mahlvorgang() : Mahlvorgangsdauer(0), VerstricheneZeit(0), bm(), dr() {
-  }
+    Mahlvorgang(Bohnenmanager& bm_);
 
-  ~Mahlvorgang() {
-  }
+  ~Mahlvorgang() {}
 
   bool StartAnfragen(int dauer, int drehzahl);
   void MahldauerWarten();

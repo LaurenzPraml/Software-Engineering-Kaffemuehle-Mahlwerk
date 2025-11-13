@@ -1,11 +1,14 @@
 #pragma once
 
+#include <iostream>
+#include <string>
+
 class IOHandler {
 private:
-  int Puffergröße;
+    long long Inputpuffer;
 
   static IOHandler* instanz;
-  IOHandler() : Puffergröße(1024) { //TODO: sinnvollen Wert finden
+  IOHandler() : Inputpuffer(0) {
   }
 
 public:
@@ -13,9 +16,11 @@ public:
   
   static IOHandler* GetInstanz();
 
-  void BohnenmengeZeigen(int Bohnenmenge);
   void DrehzahlZeigen(int Drehzahl);
-  void MenueZeigen(const char* Optionen);
-
-  // TODO: Input-Fkt. aus "Bibliotheksverwaltung kopieren"
+  void MenueZeigen(const char* Optionen[], int laenge);
+  void TextZeigen(const char* nachricht);
+  void Pausieren();
+  void InputpufferLeeren();
+  bool InputError(const char* nachricht);
+  int Zahleingabe(const char* nachricht, int min, int max, int& input);
 };

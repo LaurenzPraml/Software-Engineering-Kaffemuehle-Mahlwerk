@@ -1,15 +1,17 @@
 #pragma once
 
+#include "IOHandler.hpp"
+
 class DrehzahlRegler {
 private:
-  int Drehzahl;
+    int Drehzahl;
+
+    IOHandler* io;
 
 public:
-  DrehzahlRegler() : Drehzahl(0) {
-  }
+    DrehzahlRegler();
 
-  ~DrehzahlRegler(){
-  }
+    ~DrehzahlRegler() {}
 
-  void SetDrehzahl(int Drehzahl);
+    void SetDrehzahl(int Drehzahl);
 };

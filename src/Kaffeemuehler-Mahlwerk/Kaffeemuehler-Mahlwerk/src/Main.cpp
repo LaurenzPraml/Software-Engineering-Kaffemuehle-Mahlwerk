@@ -1,8 +1,11 @@
 #include <iostream>
 
-#include "Bohnenmanager.hpp"
+#include "Mahlwerk.hpp"
 
 int main(){
+    Mahlwerk mw = Mahlwerk();
+
+    mw.StartVorgang();
 
   return 0;
 }

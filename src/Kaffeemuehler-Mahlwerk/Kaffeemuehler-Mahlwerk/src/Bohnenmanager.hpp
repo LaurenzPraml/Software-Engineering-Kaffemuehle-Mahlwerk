@@ -1,22 +1,26 @@
 #pragma once
 
+#include "IOHandler.hpp"
+
 class Bohnenmanager {
 private:
-  int BohnenSollwert;
-  int AktuelleMenge;
+    int BohnenSollwert;
+    int AktuelleMenge;
+    bool ZufuhrOffen;
 
-  static int SekundenProTasse;
+    IOHandler* io;
+
+    static int SekundenProTasse;
 
 public:
-  Bohnenmanager() : BohnenSollwert(0), AktuelleMenge(0) {
-  }
+    Bohnenmanager();
 
-  ~Bohnenmanager() {
-  }
+    ~Bohnenmanager() {}
 
-  void OeffneZufuhr();
-  void SchliesseZufuhr();
-  int GetAktuelleMenge();
-  void SetBohnenmenge(int Menge);
-  int GetMahldauer();
+    void OeffneZufuhr();
+    void SchliesseZufuhr();
+    void VerbraucheBohnen();
+    int GetAktuelleMenge();
+    void SetBohnenmenge(int Menge);
+    int GetMahldauer();
 };

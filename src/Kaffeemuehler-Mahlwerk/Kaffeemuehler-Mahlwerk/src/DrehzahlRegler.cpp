@@ -1,5 +1,10 @@
 #include "DrehzahlRegler.hpp"
 
-void DrehzahlRegler::SetDrehzahl(int Drehzahl) {
-  this->Drehzahl = Drehzahl;
+DrehzahlRegler::DrehzahlRegler() : Drehzahl(0) {
+    io = IOHandler::GetInstanz();
+}
+
+void DrehzahlRegler::SetDrehzahl(int Drehzahl_) {
+    this->Drehzahl = Drehzahl_;
+    io->DrehzahlZeigen(this->Drehzahl);
 }
