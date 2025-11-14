@@ -10,38 +10,43 @@ IOHandler* IOHandler::GetInstanz() {
 }
 
 void IOHandler::DrehzahlZeigen(int Drehzahl) {
+    std::cout << "\n";
     std::cout << "Aktuelle Drehzahl: " << Drehzahl << "U/min\n";
 }
 
 void IOHandler::MenueZeigen(const char* Optionen[], int laenge) {
+    std::cout << "\n";
     for (int i = 0; i < laenge; i++) {
         std::cout << Optionen[i] << "\n";
     }
 }
 
 void IOHandler::TextZeigen(const char* nachricht) {
+    std::cout << "\n";
     std::cout << nachricht << "\n";
 }
 
 void IOHandler::Pausieren() {
+    std::cout << "\n";
     std::cout << "[Enter um zur Eingabe zurueckzukehren]\n";
 }
 
-void IOHandler::InputpufferLeeren() {
+void IOHandler::EingabePufferLeeren() {
     std::cin.ignore(std::numeric_limits<int>::max(), '\n');
 }
 
-bool IOHandler::InputError(const char* nachricht) {
+bool IOHandler::EingabeFehler(const char* nachricht) {
+    std::cout << "\n";
     std::cout << nachricht << std::endl;
     std::cout << "Erneut versuchen? [Y/n]";
 
-    std::string input = "x";
+    std::string eingabe = "x";
     while (1) {
-        std::getline(std::cin, input);
-        if (input == "n" || input == "N") {
+        std::getline(std::cin, eingabe);
+        if (eingabe == "n" || eingabe == "N") {
             return false;
         }
-        else if (input == "y" || input == "Y" || input == "") {
+        else if (eingabe == "y" || eingabe == "Y" || eingabe == "") {
             return true;
         }
         else {
@@ -51,24 +56,25 @@ bool IOHandler::InputError(const char* nachricht) {
     }
 }
 
-int IOHandler::Zahleingabe(const char* nachricht, int min, int max, int& input) {
+int IOHandler::Zahleingabe(const char* nachricht, int min, int max, int& eingabe) {
     bool eingabe_wiederholen = true;
     while (eingabe_wiederholen) {
+        std::cout << "\n";
         std::cout << nachricht;
-        Inputpuffer = 0;
-        std::cin >> Inputpuffer;
-        InputpufferLeeren();
+        EingabePuffer = 0;
+        std::cin >> EingabePuffer;
+        EingabePufferLeeren();
 
         if (std::cin.fail()) {
             std::cin.clear();
-            InputpufferLeeren();
-            eingabe_wiederholen = InputError("Ungueltige Eingabe!");
+            EingabePufferLeeren();
+            eingabe_wiederholen = EingabeFehler("Ungueltige Eingabe!");
         }
-        else if (Inputpuffer < (long long)min || Inputpuffer >(long long)max) {
-            eingabe_wiederholen = InputError("Fehler! Der eingegebene Wert liegt ausserhalb erlaubter Grenzen!");
+        else if (EingabePuffer < (long long)min || EingabePuffer >(long long)max) {
+            eingabe_wiederholen = EingabeFehler("Fehler! Der eingegebene Wert liegt ausserhalb erlaubter Grenzen!");
         }
         else {
-            input = (int)Inputpuffer;
+            eingabe = (int)EingabePuffer;
             return true;
         }
     }

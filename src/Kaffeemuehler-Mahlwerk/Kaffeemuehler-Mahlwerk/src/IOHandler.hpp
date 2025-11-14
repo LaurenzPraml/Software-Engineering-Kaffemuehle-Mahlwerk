@@ -5,11 +5,15 @@
 
 class IOHandler {
 private:
-    long long Inputpuffer;
+    long long EingabePuffer;
 
   static IOHandler* instanz;
-  IOHandler() : Inputpuffer(0) {
+  IOHandler() : EingabePuffer(0) {
   }
+
+  void Pausieren();
+  void EingabePufferLeeren();
+  bool EingabeFehler(const char* nachricht);
 
 public:
   IOHandler(const IOHandler& obj) = delete;
@@ -19,8 +23,5 @@ public:
   void DrehzahlZeigen(int Drehzahl);
   void MenueZeigen(const char* Optionen[], int laenge);
   void TextZeigen(const char* nachricht);
-  void Pausieren();
-  void InputpufferLeeren();
-  bool InputError(const char* nachricht);
-  int Zahleingabe(const char* nachricht, int min, int max, int& input);
+  int Zahleingabe(const char* nachricht, int min, int max, int& eingabe);
 };

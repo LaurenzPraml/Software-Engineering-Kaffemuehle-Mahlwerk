@@ -9,7 +9,7 @@ private:
   long long Mahlvorgangsdauer;
   long long VerstricheneZeit;
 
-  Bohnenmanager bm;
+  Bohnenmanager& bm;
   DrehzahlRegler dr;
   IOHandler* io;
 

@@ -2,7 +2,7 @@
 
 int Bohnenmanager::SekundenProTasse = 20;
 
-Bohnenmanager::Bohnenmanager() : BohnenSollwert(0), AktuelleMenge(10), ZufuhrOffen(false) {
+Bohnenmanager::Bohnenmanager() : BohnenSollwert(1), AktuelleMenge(10), ZufuhrOffen(false) {
     io = IOHandler::GetInstanz();
 }
 
