@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,40 +35,16 @@
       "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{44D9B815-9270-458A-BF4D-D8376E4C89C7}|Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk.vcxproj|solutionrelative:Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Main.cpp",
               "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Main.cpp",
@@ -74,125 +74,7 @@
               "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-12T07:31:47.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Bohnenmanager.cpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T16:24:36.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Mahlvorgang.hpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T16:33:31.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Mahlvorgang.cpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T16:33:34.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DrehzahlRegler.hpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T16:38:06.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DrehzahlRegler.cpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T16:38:15.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IOHandler.hpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T20:59:12.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IOHandler.cpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T16:40:29.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mahlwerk.hpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T16:48:28.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mahlwerk.cpp",
-              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
-              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
-              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
-              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T16:48:34.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T07:31:47.854Z"
             },
             {
               "$type": "Document",
@@ -205,6 +87,123 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-13T16:24:31.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bohnenmanager.cpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Bohnenmanager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T16:24:36.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mahlvorgang.hpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-13T16:33:31.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mahlvorgang.cpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlvorgang.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T16:33:34.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrehzahlRegler.hpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-13T16:38:06.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DrehzahlRegler.cpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\DrehzahlRegler.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T16:38:15.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOHandler.hpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-13T20:59:12.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOHandler.cpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\IOHandler.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T16:40:29.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mahlwerk.hpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-13T16:48:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mahlwerk.cpp",
+              "DocumentMoniker": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
+              "RelativeDocumentMoniker": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
+              "ToolTip": "D:\\Laurenz Praml\\THD\\Software-Engineering\\Software-Engineering-Kaffemuehle-Mahlwerk\\src\\Kaffeemuehler-Mahlwerk\\Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
+              "RelativeToolTip": "Kaffeemuehler-Mahlwerk\\src\\Mahlwerk.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T16:48:34.804Z",
               "EditorCaption": ""
             }
           ]
