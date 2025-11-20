@@ -11,7 +11,6 @@ private:
   IOHandler() : EingabePuffer(0) {
   }
 
-  void Pausieren();
   void EingabePufferLeeren();
   bool EingabeFehler(const char* nachricht);
 
@@ -20,6 +19,7 @@ public:
   
   static IOHandler* GetInstanz();
 
+  void Pausieren();
   void DrehzahlZeigen(int Drehzahl);
   void MenueZeigen(const char* Optionen[], int laenge);
   void TextZeigen(const char* nachricht);

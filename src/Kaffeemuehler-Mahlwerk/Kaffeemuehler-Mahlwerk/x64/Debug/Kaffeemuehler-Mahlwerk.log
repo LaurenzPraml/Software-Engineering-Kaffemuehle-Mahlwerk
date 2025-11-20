@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-﻿  Test.cpp
+﻿  Bohnenmanager.cpp
+  DrehzahlRegler.cpp
+  IOHandler.cpp
+  Mahlvorgang.cpp
+  Mahlwerk.cpp
+  Main.cpp
+  Test.cpp
+  Code wird generiert...
   Kaffeemuehler-Mahlwerk.vcxproj -> C:\Laurenz_Praml\THD\Software-Engineering\Software-Engineering-Kaffemuehle-Mahlwerk\src\Kaffeemuehler-Mahlwerk\x64\Debug\Kaffeemuehler-Mahlwerk.exe
-=======
-﻿  Mahlwerk.cpp
-  Kaffeemuehler-Mahlwerk.vcxproj -> D:\Laurenz Praml\THD\Software-Engineering\Software-Engineering-Kaffemuehle-Mahlwerk\src\Kaffeemuehler-Mahlwerk\x64\Debug\Kaffeemuehler-Mahlwerk.exe
->>>>>>> 4a2d0138b42b8bc488c9424d105d4343e5999956
