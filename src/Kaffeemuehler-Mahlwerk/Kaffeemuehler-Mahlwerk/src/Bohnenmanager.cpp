@@ -29,3 +29,11 @@ void Bohnenmanager::SetBohnenmenge(int Menge) {
 int Bohnenmanager::GetMahldauer() {
     return this->BohnenSollwert * Bohnenmanager::SekundenProTasse;
 }
+
+void Bohnenmanager::TestSetAktuelleMenge(int Menge) {
+  this->AktuelleMenge = Menge;
+}
+
+int Bohnenmanager::TestGetSollwert() {
+  return this->BohnenSollwert;
+}

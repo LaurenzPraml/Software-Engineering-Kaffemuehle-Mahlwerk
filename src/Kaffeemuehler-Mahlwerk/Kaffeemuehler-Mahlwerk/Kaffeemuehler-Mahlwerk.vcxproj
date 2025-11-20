@@ -27,6 +27,7 @@
     <ClCompile Include="src\Mahlvorgang.cpp" />
     <ClCompile Include="src\Mahlwerk.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Test.cpp" />
     <ClCompile Include="src\Wartungsmanager.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +38,7 @@
     <ClInclude Include="src\Mahlgradmanager.hpp" />
     <ClInclude Include="src\Mahlvorgang.hpp" />
     <ClInclude Include="src\Mahlwerk.hpp" />
+    <ClInclude Include="src\Test.hpp" />
     <ClInclude Include="src\Wartungsmanager.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

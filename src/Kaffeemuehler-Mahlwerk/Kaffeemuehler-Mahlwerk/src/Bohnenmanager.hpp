@@ -23,4 +23,7 @@ public:
     int GetAktuelleMenge();
     void SetBohnenmenge(int Menge);
     int GetMahldauer();
+
+    void TestSetAktuelleMenge(int Menge);
+    int TestGetSollwert();
 };

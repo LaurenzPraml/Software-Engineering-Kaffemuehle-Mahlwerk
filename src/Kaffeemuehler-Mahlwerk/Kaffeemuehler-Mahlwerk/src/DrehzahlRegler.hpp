@@ -14,4 +14,5 @@ public:
     ~DrehzahlRegler() {}
 
     void SetDrehzahl(int Drehzahl);
+    int TestGetDrehzahl();
 };

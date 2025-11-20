@@ -15,6 +15,7 @@ bool Mahlvorgang::StartAnfragen(int dauer, int drehzahl) {
         bm.SchliesseZufuhr();
         dr.SetDrehzahl(0);
         bm.VerbraucheBohnen();
+        io->Pausieren();
 
         return true;
     }

@@ -11,8 +11,9 @@ Hierfür wurden folgende Punkte identifiziert.
 * 1.3) Die gewünschte Menge an Bohnen muss im Wertebereich [1 Tasse bis 7 Tassen] eingegeben werden können
 * 1.5) Die Mahldauer muss auf Basis der eingestellten Menge berechnet werden (t = n * k; t = Mahldauer; n = eingestellte Menge; k = 20 Sekunden pro Tasse)
 * 3.1) Der Mahlvorgang muss gestartet werden können
-* 3.2) Der Mahlvorgang muss gestoppt werden können
+* 3.2) Der Mahlvorgang muss nach Ende der Mahldauer stoppen
 * 3.3) Der Mahlvorgang darf nicht gestartet werden, wenn der Oberbehälter leer ist
+* 3.4) Der Nutzer muss, über das Display, hingewiesen werden, wenn das Mahlwerk mit leerem Oberbehälter gestartet werden soll
 * 4.2) Die aktuelle Drehzahl soll angezeigt werden
 
 ### Software Design
