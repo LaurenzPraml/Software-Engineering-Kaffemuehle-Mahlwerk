@@ -16,19 +16,17 @@ void Mahlwerk::StartVorgang() {
         int laenge = sizeof(hauptmenue) / sizeof(hauptmenue[0]);
         io->MenueZeigen(hauptmenue, laenge);
 
-        int input = 0;
-        io->Zahleingabe("->", 0, laenge, input);
+        int eingabe = 0;
+        io->Zahleingabe("->", 1, laenge, eingabe);
 
-        switch (input) {
+        switch (eingabe) {
         case 1:
-            std::cout << "Option 1 gewaehlt!\n";
-            io->Zahleingabe("Geben Sie die gewuenschte Anzahl an Tassen (im Bereich 1 bis 7) ein: ", 1, 7, input);
-            bm.SetBohnenmenge(input);
+            io->Zahleingabe("Geben Sie die gewuenschte Anzahl an Tassen (im Bereich 1 bis 7) ein: ", 1, 7, eingabe);
+            bm.SetBohnenmenge(eingabe);
             break;
 
         case 2:
-            std::cout << "Option 2 gewaehlt!\n";
-            if (!mv.StartAnfragen(bm.GetMahldauer(), 10)) {
+            if (!mv.StartAnfragen(bm.GetMahldauer(), 10)) { //Aktuell noch mit Literal für Drehzahl
                 io->TextZeigen("Warnung: Start nicht erfolgreich!");
             }
             else {
@@ -37,7 +35,6 @@ void Mahlwerk::StartVorgang() {
             break;
 
         case 3:
-            std::cout << "Option 3 gewaehlt!\n";
             return;
         }
     }
