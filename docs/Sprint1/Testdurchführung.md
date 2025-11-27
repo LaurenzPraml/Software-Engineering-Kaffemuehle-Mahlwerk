@@ -6,3 +6,9 @@
 | IT1  |Mahlvorgang wird korrekt gestartet| Erfolgreich |
 | IT2  |Mahlvorgang wird korrekt beendet| Erfolgreich |
 | IT3  |Bohnensollwert wird korrekt gesetzt| Erfolgreich |
+
+### Traceability-Matrix
+[Traceability-Matrix.pdf](/docs/Traceability-Matrix.pdf)
+
+### Implementierung der Testcases
+[Test.cpp](/src/Kaffeemuehler-Mahlwerk/Kaffeemuehler-Mahlwerk/src/Test.cpp)
