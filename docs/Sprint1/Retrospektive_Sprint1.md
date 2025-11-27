@@ -12,3 +12,8 @@
  * In Zukunft werde ich auftretende Fehler/Probleme in der Architektur oder dem Design sauber dokumentieren und sofort entsprechend behenben
  * Vor allem den Ablauf in der Methode StartVorgang() der Klasse Mahlwerk muss ich in den zukünftigen Sprints genauer geplant werden
  * Die genutzten Tools (Visual Studio, Draw.io, Git Bash, Excel) werde ich beibehalten
+
+ ### Anpassungen in folgenden Dateien:
+ * [Klassendiagramm](/docs/reference/UML_Klassendiagramm.pdf)
+ * [Sequenzdiagramm](/docs/reference/Sequenzdiagramm.pdf)
+ * [Kommunikationsdiagramm](/docs/reference/Sequenzdiagramm.pdf)
