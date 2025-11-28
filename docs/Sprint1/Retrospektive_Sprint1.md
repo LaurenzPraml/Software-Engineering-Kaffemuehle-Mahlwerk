@@ -13,7 +13,12 @@
  * Vor allem den Ablauf in der Methode StartVorgang() der Klasse Mahlwerk muss ich in den zukünftigen Sprints genauer geplant werden
  * Die genutzten Tools (Visual Studio, Draw.io, Git Bash, Excel) werde ich beibehalten
 
- ### Anpassungen in folgenden Dateien:
+### Anpassungen in folgenden Dateien:
  * [Klassendiagramm](/docs/reference/UML_Klassendiagramm.pdf)
  * [Sequenzdiagramm](/docs/reference/Sequenzdiagramm.pdf)
  * [Kommunikationsdiagramm](/docs/reference/Sequenzdiagramm.pdf)
+
+### Baseline:
+```
+git checkout v1 -> Stand nach Sprint 1
+```
