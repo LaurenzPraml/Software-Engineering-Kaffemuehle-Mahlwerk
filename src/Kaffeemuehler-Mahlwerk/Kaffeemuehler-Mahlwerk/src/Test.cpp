@@ -22,7 +22,8 @@ void MT1() {
 
 void MT2() {
   Bohnenmanager bm = Bohnenmanager();
-  Mahlvorgang mv = Mahlvorgang(bm);
+  Wartungsmanager wm = Wartungsmanager();
+  Mahlvorgang mv = Mahlvorgang(bm, wm);
 
   bm.TestSetAktuelleMenge(0);
   if(mv.StartAnfragen(bm.GetMahldauer(), 25) == false){
@@ -54,7 +55,8 @@ void MT3() {
 
 void IT1() {
   Bohnenmanager bm = Bohnenmanager();
-  Mahlvorgang mv = Mahlvorgang(bm);
+  Wartungsmanager wm = Wartungsmanager();
+  Mahlvorgang mv = Mahlvorgang(bm, wm);
   IOHandler* io = IOHandler::GetInstanz();
   
   bm.TestSetAktuelleMenge(1);
@@ -67,7 +69,8 @@ void IT1() {
 
 void IT2() {
   Bohnenmanager bm = Bohnenmanager();
-  Mahlvorgang mv = Mahlvorgang(bm);
+  Wartungsmanager wm = Wartungsmanager();
+  Mahlvorgang mv = Mahlvorgang(bm, wm);
   IOHandler* io = IOHandler::GetInstanz();
 
   bm.TestSetAktuelleMenge(1);
@@ -98,7 +101,7 @@ void IT3() {
     std::cout << "Option 1 gewaehlt!\n";
     io->Zahleingabe("Geben Sie die gewuenschte Anzahl an Tassen (im Bereich 1 bis 7) ein: ", 1, 7, input);
     bm.SetBohnenmenge(input);
-    if(bm.TestGetSollwert() == 3){
+    if(bm.GetSollwert() == 3){
       std::cout << "-----------------------------------\n";
       std::cout << "IT3: Erfolgreich\n";
       std::cout << "-----------------------------------\n";

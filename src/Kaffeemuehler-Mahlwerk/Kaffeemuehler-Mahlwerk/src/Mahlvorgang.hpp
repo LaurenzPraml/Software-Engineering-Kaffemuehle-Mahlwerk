@@ -11,12 +11,12 @@ private:
   long long VerstricheneZeit;
 
   Bohnenmanager& bm;
+  Wartungsmanager& wm;
   DrehzahlRegler dr;
-  Wartungsmanager wm;
   IOHandler* io;
 
 public:
-    Mahlvorgang(Bohnenmanager& bm_);
+    Mahlvorgang(Bohnenmanager& bm_, Wartungsmanager& wm_);
 
   ~Mahlvorgang() {}
 

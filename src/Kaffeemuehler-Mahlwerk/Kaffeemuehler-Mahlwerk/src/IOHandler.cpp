@@ -1,4 +1,5 @@
 #include "IOHandler.hpp"
+#include "Mahlgradmanager.hpp"
 
 IOHandler* IOHandler::instanz = nullptr;
 
@@ -15,7 +16,7 @@ void IOHandler::DrehzahlZeigen(int Drehzahl) {
 }
 
 void IOHandler::MenueZeigen(const char* Optionen[], int laenge) {
-    std::cout << "\n";
+  std::cout << "\n";
   for (int i = 0; i < laenge; i++) {
     std::cout << Optionen[i] << "\n";
   }
@@ -26,14 +27,16 @@ void IOHandler::TextZeigen(const char* nachricht) {
   std::cout << nachricht << "\n";
 }
 
-void IOHandler::StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanager::MahlgradOptionen_t mahlgrad, bool wartungAusstehend) {
+void IOHandler::StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanager::MahlgradOptionen mahlgrad, bool wartungAusstehend) {
+  system("cls");
+  
   if(behaelterLeer){
     std::cout << "Der Oberbehaelter ist leer!\n";
   }
   if(wartungAusstehend){
     std::cout << "Die Wartung ist ausstehend!\n";
   }
-  std::cout << "Eingestellte Bohnenmenge: " << bohnenmenge << "\n";
+  std::cout << "Eingestellte Bohnenmenge: " << bohnenmenge << " Tasse(n)\n";
   switch (mahlgrad) {
   case Mahlgradmanager::LOW:
     std::cout << "Mahlgrad: low\n";
@@ -48,6 +51,7 @@ void IOHandler::StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanage
     break;
 
   default:
+    std::cout << "Mahlgrad: none\n";
     break;
   }
 }

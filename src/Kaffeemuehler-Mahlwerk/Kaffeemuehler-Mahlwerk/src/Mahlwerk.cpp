@@ -1,6 +1,6 @@
 #include "Mahlwerk.hpp"
 
-Mahlwerk::Mahlwerk() : bm(), mv(bm), mm(), wm() {
+Mahlwerk::Mahlwerk() : bm(), mv(bm, wm), mm(), wm() {
   io = IOHandler::GetInstanz();
 }
 
