@@ -14,7 +14,6 @@ private:
 
 public:
     Bohnenmanager();
-
     ~Bohnenmanager() {}
 
     void OeffneZufuhr();
@@ -23,7 +22,7 @@ public:
     int GetAktuelleMenge();
     void SetBohnenmenge(int Menge);
     int GetMahldauer();
+    int GetSollwert();
 
     void TestSetAktuelleMenge(int Menge);
-    int TestGetSollwert();
 };

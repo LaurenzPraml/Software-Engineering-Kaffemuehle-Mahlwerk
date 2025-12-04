@@ -26,6 +26,32 @@ void IOHandler::TextZeigen(const char* nachricht) {
   std::cout << nachricht << "\n";
 }
 
+void IOHandler::StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanager::MahlgradOptionen_t mahlgrad, bool wartungAusstehend) {
+  if(behaelterLeer){
+    std::cout << "Der Oberbehaelter ist leer!\n";
+  }
+  if(wartungAusstehend){
+    std::cout << "Die Wartung ist ausstehend!\n";
+  }
+  std::cout << "Eingestellte Bohnenmenge: " << bohnenmenge << "\n";
+  switch (mahlgrad) {
+  case Mahlgradmanager::LOW:
+    std::cout << "Mahlgrad: low\n";
+    break;
+
+  case Mahlgradmanager::MEDIUM:
+    std::cout << "Mahlgrad: medium\n";
+    break;
+
+  case Mahlgradmanager::HIGH:
+    std::cout << "Mahlgrad: high\n";
+    break;
+
+  default:
+    break;
+  }
+}
+
 void IOHandler::Pausieren() {
     std::cout << "\n";
   std::cout << "[Enter um zur Eingabe zurueckzukehren]\n";

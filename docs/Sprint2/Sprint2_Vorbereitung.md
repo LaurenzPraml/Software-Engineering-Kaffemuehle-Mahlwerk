@@ -19,7 +19,7 @@ Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktiona
 
   - Attribute:
 
-    - Puffergroesse: int
+    - Eingabepuffer: long long
 
   - Methoden:
     - GetInstanz()

@@ -1,41 +1,62 @@
 #include "Mahlwerk.hpp"
 
-Mahlwerk::Mahlwerk() : bm(), mv(bm) {
-    io = IOHandler::GetInstanz();
+Mahlwerk::Mahlwerk() : bm(), mv(bm), mm(), wm() {
+  io = IOHandler::GetInstanz();
 }
 
 void Mahlwerk::StartVorgang() {
-    while (1) {
+    const char* hauptmenue[] = {
+        "1) Bohnenmenge einstellen",
+        "2) Mahlgrad einstellen",
+        "3) Mahlvorgang starten",
+        "4) Wartung quittieren",
+        "5) Beenden"
+    };
 
-        const char* hauptmenue[] = {
-            "1) Bohnenmenge einstellen",
-            "2) Mahlvorgang starten",
-            "3) Beenden"
-        };
+    int laenge = sizeof(hauptmenue) / sizeof(hauptmenue[0]);
 
-        int laenge = sizeof(hauptmenue) / sizeof(hauptmenue[0]);
-        io->MenueZeigen(hauptmenue, laenge);
+  while (1) {
+    io->StatusZeigen(bm.GetAktuelleMenge() <= 0, bm.GetSollwert(), mm.GetMahlgrad(), wm.WartungFragen());
+    io->MenueZeigen(hauptmenue, laenge);
 
-        int eingabe = 0;
-        io->Zahleingabe("->", 1, laenge, eingabe);
+    int eingabe = 0;
+    io->Zahleingabe("->", 1, laenge, eingabe);
 
-        switch (eingabe) {
-        case 1:
-            io->Zahleingabe("Geben Sie die gewuenschte Anzahl an Tassen (im Bereich 1 bis 7) ein: ", 1, 7, eingabe);
-            bm.SetBohnenmenge(eingabe);
-            break;
+    switch (eingabe) {
+    case 1: //Bohnenmene einstellen
+      io->Zahleingabe("Geben Sie die gewuenschte Anzahl an Tassen (im Bereich 1 bis 7) ein: ", 1, 7, eingabe);
+      bm.SetBohnenmenge(eingabe);
+      break;
 
-        case 2:
-            if (!mv.StartAnfragen(bm.GetMahldauer(), 10)) { //Aktuell noch mit Literal für Drehzahl
-                io->TextZeigen("Warnung: Start nicht erfolgreich!");
-            }
-            else {
-                io->TextZeigen("Mahlvorgang erfolgreich durchgefuehrt!");
-            }
-            break;
+    case 2: // Mahlgrad einstellen
+      io->Zahleingabe("Waehlen Sie einen Mahlgrad. (1)low, (2)medium oder (3)high: ", 1, 3, eingabe);
+      if (eingabe == 1) {
+        mm.SetMahlgrad(Mahlgradmanager::LOW);
+      }
+      else if(eingabe == 2){
+        mm.SetMahlgrad(Mahlgradmanager::MEDIUM);
+      }
+      else if(eingabe == 3){
+        mm.SetMahlgrad(Mahlgradmanager::HIGH);
+      }
+      break;
 
-        case 3:
-            return;
-        }
+    case 3: // Start anfragen
+      if (!mv.StartAnfragen(bm.GetMahldauer(), mm.GetDrehzahl())) {
+        io->TextZeigen("Warnung: Start nicht erfolgreich!");
+      }
+      else {
+        io->TextZeigen("Mahlvorgang erfolgreich durchgefuehrt!");
+      }
+      break;
+
+    case 4:
+      wm.ZaehlerZuruecksetzen();
+      break;
+
+    case 5:
+      return;
+      break;
     }
+  }
 }

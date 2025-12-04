@@ -2,6 +2,7 @@
 
 #include "Bohnenmanager.hpp"
 #include "DrehzahlRegler.hpp"
+#include "Wartungsmanager.hpp"
 #include "IOHandler.hpp"
 
 class Mahlvorgang{
@@ -11,6 +12,7 @@ private:
 
   Bohnenmanager& bm;
   DrehzahlRegler dr;
+  Wartungsmanager wm;
   IOHandler* io;
 
 public:

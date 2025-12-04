@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include "Mahlgradmanager.hpp"
 
 class IOHandler {
 private:
@@ -23,5 +24,6 @@ public:
   void DrehzahlZeigen(int Drehzahl);
   void MenueZeigen(const char* Optionen[], int laenge);
   void TextZeigen(const char* nachricht);
+  void StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanager::MahlgradOptionen_t mahlgrad, bool wartungAusstehend);
   int Zahleingabe(const char* nachricht, int min, int max, int& eingabe);
 };

@@ -34,6 +34,6 @@ void Bohnenmanager::TestSetAktuelleMenge(int Menge) {
   this->AktuelleMenge = Menge;
 }
 
-int Bohnenmanager::TestGetSollwert() {
+int Bohnenmanager::GetSollwert() {
   return this->BohnenSollwert;
 }
