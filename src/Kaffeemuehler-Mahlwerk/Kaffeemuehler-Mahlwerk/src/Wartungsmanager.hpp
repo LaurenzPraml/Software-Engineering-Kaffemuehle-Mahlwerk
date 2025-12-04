@@ -17,4 +17,6 @@ public:
   void ZaehlerInkrementieren();
   void ZaehlerZuruecksetzen();
   bool WartungFragen();
+
+  int GetZaehler();
 };

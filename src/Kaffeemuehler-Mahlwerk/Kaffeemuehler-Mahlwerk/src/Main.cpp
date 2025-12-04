@@ -14,7 +14,14 @@ int main(){
     MT3();
     IT1();
     IT2();
-    IT3();*/
+    IT3();
+
+    MT4();
+    MT5();
+    MT6();
+    IT4();
+    IT5();
+    IT6();*/
 
   return 0;
 }

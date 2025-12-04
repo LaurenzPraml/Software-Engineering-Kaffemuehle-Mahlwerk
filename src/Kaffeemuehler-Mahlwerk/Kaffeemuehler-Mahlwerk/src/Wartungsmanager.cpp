@@ -20,3 +20,7 @@ void Wartungsmanager::ZaehlerZuruecksetzen() {
 bool Wartungsmanager::WartungFragen() {
   return wartungFaellig;
 }
+
+int Wartungsmanager::GetZaehler() {
+    return anzahlMahlvorgaenge;
+}
