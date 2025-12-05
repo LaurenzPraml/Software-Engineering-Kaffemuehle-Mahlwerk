@@ -1,6 +1,6 @@
 # Sprint 1
 
-Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktionalitäten Mahlgradeinstellung und Wartungserinnerung erweitert werden. Hierfür sind gerinfügige Anpassungen am Software-Desigen nötig, außerdem wurden folgende Requirements ausgewählt.
+Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktionalitäten Mahlgradeinstellung und Wartungserinnerung erweitert werden. Hierfür sind gerinfügige Anpassungen an der Architkektur, sowie am Software-Desigen nötig. Außerdem wurden folgende Requirements ausgewählt.
 
 ### Umzusetzende Requirements
 
@@ -15,7 +15,7 @@ Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktiona
 - 5.4) Die Wartungserinnerung muss nach der Wartung gelöscht werden können
 - 5.5) Die Funktion des Mahlwerks muss bei fehlender Wartung deaktiviert werden
 
-### Software Design
+### Erweiterungen im Software Design
 
 - IOHandler:
 
@@ -76,6 +76,10 @@ Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktiona
 ### Traceability:
 
 [Traceability-Matrix.PDF](/docs/Traceability-Matrix.pdf)
+
+### Software Architektur
+
+[Architektur.PDF](/docs/Architektur.PDF)
 
 ### Klassendiagramm:
 
