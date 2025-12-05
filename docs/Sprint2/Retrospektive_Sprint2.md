@@ -1,6 +1,7 @@
 # Retrospektive
 
 ### Abweichungen:
+* Klasse Mahlvorgang fehlt die Möglichkeit den Wartungsstatus abzufragen
 * Methode StatusZeigen() von IOHandler fehlt im Klassendiagramm
 * Attribut "instanz" von IOHandler fehlt im Klassendiagramm
 
@@ -14,5 +15,5 @@
 ### Baseline:
 
 ```
-
+git checkout v2 -> Stand nach Sprint 2
 ```
