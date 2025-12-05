@@ -22,6 +22,7 @@ Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktiona
   - Attribute:
 
     - Eingabepuffer: long long
+    - instanz: static IOHandler*
 
   - Methoden:
     - GetInstanz()

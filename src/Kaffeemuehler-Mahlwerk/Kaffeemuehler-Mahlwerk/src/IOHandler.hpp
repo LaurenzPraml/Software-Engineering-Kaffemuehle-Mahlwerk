@@ -4,8 +4,6 @@
 #include <string>
 #include "Mahlgradmanager.hpp"
 
-//class Mahlgradmanager;
-
 class IOHandler {
 private:
     long long EingabePuffer;
