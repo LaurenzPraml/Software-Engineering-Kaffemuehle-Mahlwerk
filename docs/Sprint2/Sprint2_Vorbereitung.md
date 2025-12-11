@@ -1,4 +1,4 @@
-# Sprint 1
+# Sprint 2
 
 Im zweiten Sprint soll der bestehende Stand um die beiden weiteren Kernfunktionalitäten Mahlgradeinstellung und Wartungserinnerung erweitert werden. Hierfür sind gerinfügige Anpassungen an der Architkektur, sowie am Software-Desigen nötig. Außerdem wurden folgende Requirements ausgewählt.
 
