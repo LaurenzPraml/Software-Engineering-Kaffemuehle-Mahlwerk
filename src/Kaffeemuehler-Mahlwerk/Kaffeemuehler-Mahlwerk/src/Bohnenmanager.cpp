@@ -15,7 +15,10 @@ void Bohnenmanager::SchliesseZufuhr() {
 }
 
 void Bohnenmanager::VerbraucheBohnen() {
-    AktuelleMenge--;
+  AktuelleMenge -= BohnenSollwert;
+  if(AktuelleMenge < 0){
+    AktuelleMenge = 0;
+  }
 }
 
 int Bohnenmanager::GetAktuelleMenge() {

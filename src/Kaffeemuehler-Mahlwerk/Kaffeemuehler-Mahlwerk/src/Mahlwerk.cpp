@@ -16,7 +16,7 @@ void Mahlwerk::StartVorgang() {
     int laenge = sizeof(hauptmenue) / sizeof(hauptmenue[0]);
 
   while (1) {
-    io->StatusZeigen(bm.GetAktuelleMenge() <= 0, bm.GetSollwert(), mm.GetMahlgrad(), wm.WartungFragen());
+    io->StatusZeigen(bm.GetAktuelleMenge() <= 0, bm.GetSollwert(), bm.GetAktuelleMenge(), mm.GetMahlgrad(), wm.WartungFragen());
     io->MenueZeigen(hauptmenue, laenge);
 
     int eingabe = 0;
@@ -42,11 +42,8 @@ void Mahlwerk::StartVorgang() {
       break;
 
     case 3: // Start anfragen
-      if (!mv.StartAnfragen(bm.GetMahldauer(), mm.GetDrehzahl())) {
-        io->TextZeigen("Warnung: Start nicht erfolgreich!");
-      }
-      else {
-        io->TextZeigen("Mahlvorgang erfolgreich durchgefuehrt!");
+      if(mv.StartAnfragen(bm.GetMahldauer(), mm.GetDrehzahl())){
+        wm.ZaehlerInkrementieren();
       }
       break;
 

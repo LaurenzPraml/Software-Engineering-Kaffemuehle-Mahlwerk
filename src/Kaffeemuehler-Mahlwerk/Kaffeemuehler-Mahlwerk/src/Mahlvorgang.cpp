@@ -6,13 +6,13 @@ Mahlvorgang::Mahlvorgang(Bohnenmanager& bm_, Wartungsmanager& wm_) : Mahlvorgang
 
 bool Mahlvorgang::StartAnfragen(int dauer, int drehzahl) {
   if (bm.GetAktuelleMenge() <= 0) {
-    io->TextZeigen("Warnung: Nicht genuegend Bohnen im Oberbehaelter!");
+    io->TextZeigen("Warnung: Nicht genuegend Bohnen im Oberbehaelter!\a");
     io->Pausieren();
     return false;
   }
 
   if (wm.WartungFragen()) {
-    io->TextZeigen("Warnung: Fuehren Sie die Wartung durch, bevor Sie einen Vorgang starten!");
+    io->TextZeigen("Warnung: Fuehren Sie die Wartung durch, bevor Sie einen Vorgang starten!\a");
     io->Pausieren();
     return false;
   }
@@ -26,15 +26,18 @@ bool Mahlvorgang::StartAnfragen(int dauer, int drehzahl) {
   bm.SchliesseZufuhr();
   dr.SetDrehzahl(0);
   bm.VerbraucheBohnen();
-  wm.ZaehlerInkrementieren();
-  io->Pausieren();
 
+  io->TextZeigen("Mahlvorgang abgeschlossen!\a");
+  io->Pausieren();
   return true;
 }
 
 void Mahlvorgang::MahldauerWarten() {
   VerstricheneZeit = 0;
-  while (VerstricheneZeit < Mahlvorgangsdauer * 30000000) {
+  long long Wartezeit = Mahlvorgangsdauer * 3000;
+  while (VerstricheneZeit < Wartezeit) {
     VerstricheneZeit++;
+    std::cout << "\r";
+    std::cout << (int)(((double)VerstricheneZeit * 100.0f) / (double)Wartezeit) << "%\r";
   }
 }

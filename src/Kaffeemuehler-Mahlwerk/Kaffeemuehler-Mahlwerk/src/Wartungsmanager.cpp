@@ -1,7 +1,13 @@
 #include "Wartungsmanager.hpp"
 
-Wartungsmanager::Wartungsmanager() : anzahlMahlvorgaenge(0), wartungFaellig(false) {
+Wartungsmanager::Wartungsmanager() : anzahlMahlvorgaenge(0), wartungFaellig(false), dm() {
   io = IOHandler::GetInstanz();
+  anzahlMahlvorgaenge = dm.ZaehlerLaden();
+  wartungFaellig = (anzahlMahlvorgaenge >= warnGrenzwert);
+}
+
+Wartungsmanager::~Wartungsmanager() {
+  dm.ZaehlerSpeichern(anzahlMahlvorgaenge);
 }
 
 void Wartungsmanager::ZaehlerInkrementieren() {

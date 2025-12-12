@@ -1,18 +1,19 @@
 #pragma once
 
 #include "IOHandler.hpp"
+#include "Dateimanager.hpp"
 
 class Wartungsmanager{
 private:
   int anzahlMahlvorgaenge;
   const int warnGrenzwert = 5;
   bool wartungFaellig;
-  //TODO: Dateimanager anlegen
+  DateiManager dm;
   IOHandler* io;
 
 public:
   Wartungsmanager();
-  ~Wartungsmanager() {}
+  ~Wartungsmanager();
 
   void ZaehlerInkrementieren();
   void ZaehlerZuruecksetzen();

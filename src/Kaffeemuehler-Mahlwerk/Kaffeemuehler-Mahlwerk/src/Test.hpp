@@ -14,3 +14,11 @@ void MT6();
 void IT4();
 void IT5();
 void IT6();
+
+void MT7();
+void MT8();
+void MT9();
+void IT7();
+void IT8();
+void IT9_1();
+void IT9_2();

@@ -24,6 +24,6 @@ public:
   void DrehzahlZeigen(int Drehzahl);
   void MenueZeigen(const char* Optionen[], int laenge);
   void TextZeigen(const char* nachricht);
-  void StatusZeigen(bool behaelterLeer, int bohnenmenge, Mahlgradmanager::MahlgradOptionen mahlgrad, bool wartungAusstehend);
+  void StatusZeigen(bool behaelterLeer, int bohnenmenge, int aktuelleMenge, Mahlgradmanager::MahlgradOptionen mahlgrad, bool wartungAusstehend);
   int Zahleingabe(const char* nachricht, int min, int max, int& eingabe);
 };

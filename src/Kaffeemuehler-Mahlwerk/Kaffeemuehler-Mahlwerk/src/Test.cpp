@@ -4,6 +4,7 @@
 #include "DrehzahlRegler.hpp"
 #include "Wartungsmanager.hpp"
 #include "IOHandler.hpp"
+#include "Dateimanager.hpp"
 #include <stdio.h>
 
 void MT1() {
@@ -24,6 +25,7 @@ void MT1() {
 void MT2() {
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
 
   bm.TestSetAktuelleMenge(0);
@@ -57,6 +59,7 @@ void MT3() {
 void IT1() {
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
   IOHandler* io = IOHandler::GetInstanz();
   
@@ -71,6 +74,7 @@ void IT1() {
 void IT2() {
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
   IOHandler* io = IOHandler::GetInstanz();
 
@@ -171,6 +175,7 @@ void IT4() {
   Mahlgradmanager mm = Mahlgradmanager();
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
 
   mm.SetMahlgrad(Mahlgradmanager::MEDIUM);
@@ -185,6 +190,7 @@ void IT5() {
   Mahlgradmanager mm = Mahlgradmanager();
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
 
   wm.ZaehlerInkrementieren();
@@ -211,6 +217,7 @@ void IT6() {
   Mahlgradmanager mm = Mahlgradmanager();
   Bohnenmanager bm = Bohnenmanager();
   Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
   Mahlvorgang mv = Mahlvorgang(bm, wm);
 
   const char* hauptmenue[] = {
@@ -247,4 +254,108 @@ void IT6() {
   }
 }
 
+void MT7() {
+  DateiManager dm = DateiManager();
+  IOHandler* io = IOHandler::GetInstanz();
+  dm.ZaehlerSpeichern(20);
+  std::cout << "-----------------------------------\n";
+  std::cout << "Wert 20 in Datei? MT7: Erfolg : MT7: Fehler!\n";
+  io->Pausieren();
+  std::cout << "-----------------------------------\n";
+}
 
+void MT8() {
+  IOHandler* io = IOHandler::GetInstanz();
+  DateiManager dm = DateiManager();
+  std::cout << "Wert 30 in Datei eintragen!\n";
+  io->Pausieren();
+  if(dm.ZaehlerLaden() == 30){
+    std::cout << "-----------------------------------\n";
+    std::cout << "MT8: Erfolg!\n";
+    std::cout << "-----------------------------------\n";
+  }
+  else{
+    std::cout << "-----------------------------------\n";
+    std::cout << "MT8: Fehler!\n";
+    std::cout << "-----------------------------------\n";
+  }
+}
+
+void MT9() {
+  Bohnenmanager bm = Bohnenmanager();
+  Mahlgradmanager mm = Mahlgradmanager();
+  Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
+  Mahlvorgang mv = Mahlvorgang(bm, wm);
+  IOHandler* io = IOHandler::GetInstanz();
+  std::cout << "-----------------------------------\n";
+  std::cout << "Startet Restdauer bei 0%?\n";
+  std::cout << "-----------------------------------\n";
+  io->Pausieren();
+  mv.StartAnfragen(bm.GetMahldauer(), mm.GetDrehzahl());
+  std::cout << "-----------------------------------\n";
+  std::cout << "Endet Restaduer bei 100%?\n";
+  std::cout << "-----------------------------------\n";
+  std::cout << "Beides erfuellt => MT9: Erfolg!\n";
+  std::cout << "-----------------------------------\n";
+  io->Pausieren();
+}
+
+void IT7() {
+  IOHandler* io = IOHandler::GetInstanz();
+  const char* hauptmenue[] = {
+        "1) Bohnenmenge einstellen",
+        "2) Mahlgrad einstellen",
+        "3) Mahlvorgang starten",
+        "4) Wartung quittieren",
+        "5) Beenden"
+  };
+  int laenge = sizeof(hauptmenue) / sizeof(hauptmenue[0]);
+
+  io->MenueZeigen(hauptmenue, laenge);
+  std::cout << "-----------------------------------\n";
+  std::cout << "Wert 10 eingeben: \n";
+  std::cout << "-----------------------------------\n";
+  int eingabe = 0;
+  io->Zahleingabe("->", 1, laenge, eingabe);
+  std::cout << "-----------------------------------\n";
+  std::cout << "Wurde auf Fehler hingewiesen? IT7: Erfolg : IT7: Fehler\n";
+  std::cout << "-----------------------------------\n";
+}
+
+void IT8() {
+  Bohnenmanager bm = Bohnenmanager();
+  Mahlgradmanager mm = Mahlgradmanager();
+  Wartungsmanager wm = Wartungsmanager();
+  wm.ZaehlerZuruecksetzen();
+  Mahlvorgang mv = Mahlvorgang(bm, wm);
+  IOHandler* io = IOHandler::GetInstanz();
+  mv.StartAnfragen(bm.GetMahldauer(), mm.GetDrehzahl());
+  std::cout << "-----------------------------------\n";
+  std::cout << "Benachrichtigungston hoerbar? IT8: Erfolg : IT8: Fehler\n";
+  std::cout << "-----------------------------------\n";
+}
+
+void IT9_1() {
+  Wartungsmanager wm = Wartungsmanager();
+  while(!wm.WartungFragen()){
+    wm.ZaehlerInkrementieren();
+  }
+  std::cout << "-----------------------------------\n";
+  std::cout << "Programm neustarten!\n";
+  std::cout << "-----------------------------------\n";
+}
+
+void IT9_2() {
+  Wartungsmanager wm = Wartungsmanager();
+  if(wm.WartungFragen()){
+    std::cout << "-----------------------------------\n";
+    std::cout << "IT9: Erfolg!\n";
+    std::cout << "-----------------------------------\n";
+  }
+  else{
+    std::cout << "-----------------------------------\n";
+    std::cout << "IT9: Fehler!\n";
+    std::cout << "-----------------------------------\n";
+  }
+}
